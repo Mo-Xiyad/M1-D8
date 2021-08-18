@@ -20,7 +20,9 @@ Write a function for changing the text of only the p which are children of a div
 */
 
 const changePcontent = function () {
-    //
+    let allP = document.querySelectorAll('div p')
+    allP[0].innerText = 'This is inside the div tag';
+
 };
 
 /* EXERCISE 4
