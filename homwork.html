@@ -5,15 +5,27 @@
     .myHeading {
       color: red;
     }
+
+    .colorGreen {
+      background-color: greenyellow;
+    }
   </style>
 </head>
 
 <body>
   <header>
-    <h1 id='titleone'>This is the title of the page</h1>
+
+    <h1 onclick="changeTitle(),addClassToTitle(event)" id="GFG" style="cursor:pointer;">This is the title of the page
+    </h1>
     <h2>This is the subtitle of the page</h2>
+
   </header>
-  <input onclick="changeTitle()" type="button" value="Change Title" />
+
+  <!-- <input onclick="changeTitle()" type="button" value="Change Title" /> -->
+
+  <input onclick="firstUlDisappear()" type="button" value="Delete Ul" />
+
+  <input onclick="paintItGreen()" type="button" value="Color Ul" />
 
   <input onclick="addClassToTitle()" type="button" value="Change Style" />
 
@@ -22,6 +34,8 @@
   <input onclick="changeUrls()" type="button" value="change the links" />
 
   <input onclick="addToTheSecond()" type="button" value="Add a list item" />
+
+  <input onclick="addParagraph()" type="button" value="Add new paragraph" />
 
 
   <main>
