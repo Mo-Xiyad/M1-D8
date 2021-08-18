@@ -11,7 +11,8 @@ Write a function for changing the class of the title of the page in "myHeading".
 */
 
 const addClassToTitle = function () {
-    //
+    let title = document.getElementsByTagName('h1')
+    title[0].classList.add('myHeading')
 };
 
 /* EXERCISE 3
