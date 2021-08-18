@@ -30,7 +30,12 @@ Write a function for changing the destination of every link to https://www.googl
 */
 
 const changeUrls = function () {
-    //
+    let webAddress = document.querySelectorAll('a')
+    // let 
+    for (let i = 0; i < webAddress.length; i++) {
+        webAddress[i].innerText = 'https://www.google.com'
+    }
+
 };
 
 /* EXERCISE 5
