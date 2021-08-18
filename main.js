@@ -43,7 +43,10 @@ const changeUrls = function () {
  */
 
 const addToTheSecond = function (content) {
-    //
+    let exList = document.getElementById('secondList')
+    let list = document.createElement('li')
+    list.innerText = 'new list item'
+    exList.insertBefore(list, exList[2])
 };
 
 /* EXERCISE 6
